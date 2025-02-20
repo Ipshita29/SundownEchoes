@@ -20,4 +20,6 @@ You can toggle between these themes using the theme switcher button.
 
 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, make changes, and submit a pull request.
+Your Contributions would mean alot!
+
 
