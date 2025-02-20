@@ -11,6 +11,10 @@ SundownEchoes is a minimalist lofi music player designed to create a relaxing at
 
 🛠️ Technologies Used
 HTML, CSS, JavaScript
+This version: ✔ Uses only basic JavaScript
+✔ Has a play/pause button
+✔ Changes background to day/night based on time
+✔ Sun moves for a smooth effect
 
 🎨 Theme Switching
 The app allows you to switch between:
