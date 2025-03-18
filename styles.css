@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    text-align: center;
+    color: #5b5b5b;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h6 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Sky and Sun animation */
+.sky {
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(to top, #ffdde1, #b5e7f2);
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.sun {
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #ffcccb, #ff9999);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: float 5s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+    0%, 100% { transform: translate(-50%, 10px); }
+    50% { transform: translate(-50%, -10px); }
+}
+
+/* Button styles */
+button {
+    background: #ffc3a0;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(255, 140, 140, 0.3);
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+button:hover {
+    background: #ffab76;
+    transform: scale(1.1);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
